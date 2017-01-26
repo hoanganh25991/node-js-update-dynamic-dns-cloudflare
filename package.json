@@ -1,0 +1,15 @@
+{
+  "name": "node-js-ngrok",
+  "version": "1.0.0",
+  "description": "node-js-ngrok",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anh Le Hoang",
+  "license": "MIT",
+  "dependencies": {
+    "public-ip": "^2.0.1",
+    "request": "^2.79.0"
+  }
+}
