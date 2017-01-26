@@ -49,4 +49,6 @@ async function updateRecord(config, record) {
 // updateRecord(config, {type: 'A', name: 'auto-home'});
 const one_day = 86400000;
 //auto renew each day
-setTimeout(updateRecord(config, {type: 'A', name: 'auto-home'}), one_day);
+setTimeout(() => {updateRecord(config, {type: 'A', name: 'auto-home'})}, one_day);
+
+if(process.env.DEBUG) updateRecord(config, {type: 'A', name: 'auto-home'});
